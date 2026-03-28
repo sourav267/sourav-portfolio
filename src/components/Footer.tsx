@@ -26,7 +26,7 @@ export default function Footer() {
             <div className={styles.footerCol}>
               <h4 className={styles.footerLabel}>Contact</h4>
               <div className={styles.footerLinks}>
-                <span style={{ color: 'rgba(255, 255, 255, 0.8)' }}>Bengaluru, IN</span>
+                <span className={styles.footerMeta}>Bengaluru, IN</span>
                 <a href="mailto:souravkumar267@gmail.com" className={styles.footerEmail}>Email Me</a>
               </div>
             </div>
