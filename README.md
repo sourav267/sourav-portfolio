@@ -1,19 +1,80 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sourav Kumar | Senior Engineer Portfolio
 
-# Run and deploy your AI Studio app
+A React + Vite portfolio highlighting senior full-stack engineering experience, featured projects, and core technical skills.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/2d0bb04b-1830-4851-beba-549b19558785
+- React 19
+- TypeScript
+- Vite
+- Motion
+- Lucide React
 
-## Run Locally
+## Local Development
 
-**Prerequisites:**  Node.js
-
+Prerequisite: Node.js 20+ (or current LTS).
 
 1. Install dependencies:
-   `npm install`
-2. Run the app:
-   `npm run dev`
+
+```bash
+npm install
+```
+
+2. Start the dev server:
+
+```bash
+npm run dev
+```
+
+3. Open the app:
+
+```text
+http://localhost:3000
+```
+
+## Available Scripts
+
+- `npm run dev`: Start local development server on port 3000.
+- `npm run build`: Create production build in `dist/`.
+- `npm run preview`: Preview production build locally.
+- `npm run lint`: Run TypeScript type checks (`tsc --noEmit`).
+
+## Project Structure
+
+```text
+src/
+   components/
+      Navbar.tsx
+      Profile.tsx
+      Experience.tsx
+      Education.tsx
+      Projects.tsx
+      Skills.tsx
+      Footer.tsx
+   App.tsx
+   App.module.css
+   constants.tsx
+   index.css
+   main.tsx
+```
+
+## Deployment
+
+This app is static and can be deployed to GitHub Pages, Vercel, or Netlify.
+
+### Vercel
+
+1. Import the GitHub repository in Vercel.
+2. Framework preset: Vite.
+3. Build command: `npm run build`.
+4. Output directory: `dist`.
+
+### GitHub Pages
+
+1. Add a deploy flow (for example, with `gh-pages` or GitHub Actions).
+2. If deploying to a project path, set Vite `base` in `vite.config.ts`.
+
+## Contact
+
+- GitHub: https://github.com/sourav267
+- LinkedIn: https://linkedin.com/in/sourav13

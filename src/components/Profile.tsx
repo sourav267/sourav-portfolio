@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { MapPin, Mail, Github, Linkedin, Download } from "lucide-react";
+import { MapPin, Mail, Github, Linkedin } from "lucide-react";
 import styles from "../App.module.css";
 
 export default function Profile() {
@@ -41,16 +41,6 @@ export default function Profile() {
               <Linkedin className="w-5 h-5" />
             </a>
           </div>
-
-          <button className={styles.downloadButton}>
-            <div className={styles.downloadIcon}>
-              <Download className="w-6 h-6" />
-            </div>
-            <div>
-              <span className={styles.downloadTitle}>Download CV</span>
-              <span className={styles.downloadMeta}>PDF • Updated March 2026</span>
-            </div>
-          </button>
         </div>
       </motion.div>
     </aside>
